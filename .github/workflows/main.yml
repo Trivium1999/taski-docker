@@ -8,7 +8,7 @@ on:
 jobs:
   checkout-and-print-tree:
     runs-on: ubuntu-latest
-    staps:
+    steps:
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Print project tree
